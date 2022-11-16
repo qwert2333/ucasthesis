@@ -41,6 +41,7 @@
 %- [math]% enable some extra math packages
 %- [xlink]% disable link colors
 \usepackage{Style/artracom}% user defined commands
+%\usepackage{Style/commonstyle}% user defined commands
 %---------------------------------------------------------------------------%
 %->> Document inclusion
 %---------------------------------------------------------------------------%
@@ -72,7 +73,16 @@
 %-> Mainmatter
 %-
 \mainmatter% initialize the environment
-\input{Tex/Mainmatter}% main content
+\input{Tex/Intro}% main content
+\input{Tex/Theory}
+\input{Tex/LHCandATLAS}
+\input{Tex/ATLASRecon}
+\input{Tex/VBFCP}
+\input{Tex/CEPC}
+\input{Tex/CEPCDet}
+\input{Tex/EcalRec}
+\input{Tex/CEPCHyy}
+\input{Tex/Summary}
 %-
 %-> Appendix
 %-
@@ -85,7 +95,7 @@
 \backmatter% initialize the environment
 \intotoc*{\cleardoublepage}{\bibname}% add link to toc
 \artxifstreq{\artxbib}{bibtex}{% enable bibtex
-    \bibliography{Biblio/ref}% bibliography
+\bibliography{Biblio/ref}% bibliography
 }{%
     \printbibliography% bibliography
 }

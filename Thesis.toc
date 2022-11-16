@@ -1,0 +1,19 @@
+\contentsline {chapter}{\numberline {第1章\hspace {.3em}}引言}{1}{chapter.1}%
+\contentsline {section}{\numberline {1.1}粒子物理学简介}{1}{section.1.1}%
+\contentsline {section}{\numberline {1.2}论文总述及结构}{1}{section.1.2}%
+\contentsline {chapter}{\numberline {第2章\hspace {.3em}}粒子物理标准模型}{3}{chapter.2}%
+\contentsline {chapter}{\numberline {第3章\hspace {.3em}}大型强子对撞机和ATLAS探测器}{5}{chapter.3}%
+\contentsline {section}{\numberline {3.1}LHC}{5}{section.3.1}%
+\contentsline {section}{\numberline {3.2}ATLAS}{5}{section.3.2}%
+\contentsline {chapter}{\numberline {第4章\hspace {.3em}}ATLAS探测器上的粒子重建和鉴别}{7}{chapter.4}%
+\contentsline {chapter}{\numberline {第5章\hspace {.3em}}ATLAS探测器上通过VBF $H \to \mitgamma \mitgamma $过程测量希格斯粒子CP性质}{9}{chapter.5}%
+\contentsline {chapter}{\numberline {第6章\hspace {.3em}}环形正负电子对撞机}{11}{chapter.6}%
+\contentsline {chapter}{\numberline {第7章\hspace {.3em}}CEPC上粒子流量能器概念设计}{13}{chapter.7}%
+\contentsline {chapter}{\numberline {第8章\hspace {.3em}}晶体电磁量能器重建算法的开发}{15}{chapter.8}%
+\contentsline {chapter}{\numberline {第9章\hspace {.3em}}CEPC上$\mitsigma (ZH)\times Br(H \to \mitgamma \mitgamma )$测量精度的研究}{17}{chapter.9}%
+\contentsline {chapter}{\numberline {第10章\hspace {.3em}}总结}{19}{chapter.10}%
+\contentsline {chapter}{\numberline {附录 A\hspace {.3em}}附录}{21}{appendix.A}%
+\contentsline {chapter}{参考文献}{23}{section*.16}%
+\contentsline {chapter}{致谢}{23}{appendix*.17}%
+\contentsline {chapter}{作者简历及攻读学位期间发表的学术论文与研究成果}{25}{appendix*.18}%
+\contentsline {section}{\numberline {A.1}教育经历：}{25}{section.A.1}%

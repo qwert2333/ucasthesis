@@ -1,0 +1,158 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%    CEPC part                                                       % 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% +--------------------------------------------------------------------+
+% |                                                                    |
+% |  Particle-antiparticle pair notations                              |
+% |                                                                    |
+% +--------------------------------------------------------------------+
+%
+\def\antibar#1{\ensuremath{#1\bar{#1}}}
+\def\tbar{\ensuremath{\bar{t}}}
+\def\ttbar{\antibar{t}}
+\def\bbar{\ensuremath{\bar{b}}}
+\def\bbbar{\antibar{b}}
+\def\cbar{\ensuremath{\bar{c}}}
+\def\ccbar{\antibar{c}}
+\def\sbar{\ensuremath{\bar{s}}}
+\def\ssbar{\antibar{s}}
+\def\ubar{\ensuremath{\bar{u}}}
+\def\uubar{\antibar{u}}
+\def\dbar{\ensuremath{\bar{d}}}
+\def\ddbar{\antibar{d}}
+\def\fbar{\ensuremath{\bar{f}}}
+\def\ffbar{\antibar{f}}
+\def\qbar{\ensuremath{\bar{q}}}
+\def\qqbar{\antibar{q}}
+\def\nbar{\ensuremath{\bar{\nu}}}
+\def\nnbar{\antibar{\nu}}
+
+% +--------------------------------------------------------------------+
+% |                                                                    |
+% |  e+e-, etc.                                                        |
+% |                                                                    |
+% +--------------------------------------------------------------------+
+%
+\def\ee{\ensuremath{e^+ e^-}}%
+\def\epm{\ensuremath{e^{\pm}}}%
+\def\epem{\ensuremath{e^+ e^-}}%
+\def\mumu{\ensuremath{\mathrm{\mu^+ \mu^-}}}%
+\def\mupm{\ensuremath{\mu^{\pm}}}%
+\def\tautau{\ensuremath{\mathrm{\tau^+ \tau^-}}}%
+\let\muchless=\ll
+\def\leplep{\ensuremath{\ell^+ \ell^-}}%
+\def\lnu{\ensuremath{\ell \nu}}%
+% +--------------------------------------------------------------------+
+% |                                                                    |
+% |  Useful Z0 type stuff    Gammas, asymmetries                       |
+% |                                                                    |
+% +--------------------------------------------------------------------+
+\def\Zzero{\ensuremath{Z}}
+\def\Zboson{\ensuremath{Z}}
+\def\Wplus{\ensuremath{W^+}}
+\def\Wminus{\ensuremath{W^-}}
+\def\Wboson{\ensuremath{W}}%
+\def\Wpm{\ensuremath{W^{\pm}}}%
+\def\Wmp{\ensuremath{W^{\mp}}}%
+\def\Zzv{\ensuremath{\Zzero^{\textstyle *}}}
+\def\Abb{\ensuremath{A_{\bbbar}}}
+\def\Acc{\ensuremath{A_{\ccbar}}}
+\def\Aqq{\ensuremath{A_{\qqbar}}}
+\def\Afb{\ensuremath{A_{{fb}}}} % Subscript italic not roman (EE)
+\def\GZ{\ensuremath{\Gamma_{Z}}}
+\def\GW{\ensuremath{\Gamma_{W}}}
+\def\GH{\ensuremath{\Gamma_{H}}}
+\def\GamHad{\ensuremath{\Gamma_{\mathrm{had}}}}
+\def\Gbb{\ensuremath{\Gamma_{\bbbar}}}
+\def\Rbb{\ensuremath{R_{\bbbar}}}
+\def\Gcc{\ensuremath{\Gamma_{\ccbar}}}
+\def\Gvis{\ensuremath{\Gamma_{\mathrm{vis}}}}
+\def\Ginv{\ensuremath{\Gamma_{\mathrm{inv}}}}
+
+% +--------------------------------------------------------------------+
+% |                                                                    |
+% |  pi, pi0, pi+, pi-, pi+-, eta, eta1, etc.                          |
+% |                                                                    |
+% +--------------------------------------------------------------------+
+\let\pii=\pi
+\def\pi{\ensuremath{\pii}}%
+\def\pizero{\ensuremath{\pii^0}}%
+\def\piplus{\ensuremath{\pii^+}}%
+\def\piminus{\ensuremath{\pii^-}}%
+\def\pipm{\ensuremath{\pii^{\pm}}}%
+\def\pimp{\ensuremath{\pii^{\mp}}}%
+\let\etaa=\eta
+\def\eta{\ensuremath{\etaa}}%
+\def\etaprime{\ensuremath{\eta^{\sst\prime}}}%
+
+% +--------------------------------------------------------------------+
+%  Self-defined
+% +--------------------------------------------------------------------+
+\newcommand{\Br}{\ensuremath{Br}\xspace}
+\newcommand{\Z}{\ensuremath{Z}\xspace}
+\newcommand{\W}{\ensuremath{W}\xspace}
+\newcommand{\Higgs}{\ensuremath{H}\xspace}
+\newcommand{\iab}{\ensuremath{\mathrm{ab^{-1}}}\xspace}
+\newcommand{\pb}{\ensuremath{\mathrm{pb}}\xspace}
+\newcommand{\fb}{\ensuremath{\mathrm{fb}}\xspace}
+\def\gamgam{\ensuremath{\gamma\gamma}}
+\newcommand{\qqyy}{\ensuremath{\qqbar\gamgam}\xspace}
+\newcommand{\mmyy}{\ensuremath{\mumu\gamgam}\xspace}
+\newcommand{\nnyy}{\ensuremath{\nnbar\gamgam}\xspace}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%    ATLAS part                                                      %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% production modesA
+\newcommand*{\ggH}{\ensuremath{\mathrm{ggF}}\xspace}
+\newcommand*{\ggF}{\ensuremath{\mathrm{ggF}}\xspace}
+\newcommand*{\VBF}{\ensuremath{\mathrm{VBF}}\xspace}
+\newcommand*{\VH}{\ensuremath{\mathrm{VH}}\xspace}
+\newcommand*{\ZH}{\ensuremath{\mathrm{ZH}}\xspace}
+\newcommand*{\ggZH}{\ensuremath{\mathrm{ggZH}}\xspace}
+\newcommand*{\WH}{\ensuremath{\mathrm{WH}}\xspace}
+\newcommand*{\ttH}{\ensuremath{\mathrm{t\bar{t}H}}\xspace}
+\newcommand*{\bbH}{\ensuremath{\mathrm{b\bar{b}H}}\xspace}
+\newcommand*{\tH}{\ensuremath{\mathrm{tH}}\xspace}
+\newcommand*{\tHq}{\ensuremath{\mathrm{tHq}}\xspace}
+\newcommand*{\tHbj}{\ensuremath{\mathrm{tHbj}}\xspace}
+\newcommand*{\tHW}{\ensuremath{\mathrm{tHW}}\xspace}
+\newcommand*{\CP}{$CP$\xspace}
+
+% processes
+\newcommand*{\Hyy}{\ensuremath{H\to\gamma\gamma}\xspace}
+\newcommand*{\myy}{\ensuremath{m_{\gamma\gamma}}\xspace}
+\newcommand*{\yy}{\ensuremath{\gamma\gamma}\xspace}
+\newcommand*{\yjet}{\ensuremath{\gamma j}\xspace}
+\newcommand*{\jetjet}{\ensuremath{jj}\xspace}
+
+% variables
+\newcommand*{\ETmiss}{\ensuremath{E_\mathrm{T}^\mathrm{miss}}\xspace}
+%\newcommand*{\pTj}{\ensuremath{p_\mathrm{T}^\mathrm{j}}\xspace}
+\newcommand{\pTj}[1]{\ensuremath{p_{\mathrm{T,jet#1}}}}
+\newcommand*{\yH}{\ensuremath{\left|y_\mathrm{H}\right|}\xspace}
+\newcommand*{\Njets}{\ensuremath{N_\text{jets}}\xspace}
+\newcommand{\mjj}{\ensuremath{m_{jj}}}
+\newcommand{\ptHjj}{\ensuremath{p_{\mathrm{T}}^{Hjj}}}
+\newcommand{\Detajj}{\ensuremath{\Delta\eta_{jj}}}
+\newcommand{\OO}{\ensuremath{\mathcal{OO}}\xspace}
+
+% MC stuff
+\newcommand*{\NNLL}{\ensuremath{\text{NNLL}}\xspace}
+\newcommand*{\NNNLO}{\ensuremath{\text{N$^3$LO}}\xspace}
+\newcommand*{\CTten}{\textsc{CT10}\xspace}
+\newcommand*{\PDFLHC}{\textsc{PDF4LHC15}\xspace}
+\newcommand*{\NNPDF}{\textsc{NNPDF3.0}\xspace}
+\newcommand*{\NNLOPS}{\textsc{Powheg~NNLOPS}\xspace}
+
+% for results
+\newcommand*{\theo}{\mbox{\(\;\)(theo.)}\xspace}
+\newcommand*{\exsp}{\mbox{\(\;\)(exp.)}\xspace}
+\newcommand{\asym}[3]{\ensuremath{{#1}~^{+#2}_{-#3}}}
+\newcommand{\err}[1]{\small\ensuremath{\pm #1}}
+\newcommand*{\tot}{\mbox{\(\;\)(total)}\xspace}
+\newcommand{\cHWtil}{\ensuremath{c_{HWtil}}\xspace}
+
+
